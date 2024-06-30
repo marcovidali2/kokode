@@ -14,7 +14,7 @@ const Hero = () => {
                     <div />
 
                     <div className="space-y-8">
-                        <h1 className="text-4xl sm:text-6xl font-bold font-dm-serif-display">
+                        <h1 className="text-4xl sm:text-6xl font-dm-serif-display">
                             Pizzeria Kokodè
                         </h1>
 
