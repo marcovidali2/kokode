@@ -1,5 +1,7 @@
+import Hero from "../components/Hero";
+
 const Home = () => {
-    return <h1>San Marco</h1>;
+    return <Hero />;
 };
 
 export default Home;

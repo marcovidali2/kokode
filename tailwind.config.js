@@ -2,13 +2,17 @@
 export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                "dm-serif-display": ["DM Serif Display"],
+            },
+        },
     },
     daisyui: {
         themes: [
             {
                 mytheme: {
-                    primary: "#e11d48",
+                    primary: "#fde047",
                     secondary: "#fb6000",
                     accent: "#00b574",
                     neutral: "#110a00",
@@ -21,6 +25,5 @@ export default {
             },
         ],
     },
-    plugins: [require("daisyui")],
     plugins: [require("daisyui")],
 };
