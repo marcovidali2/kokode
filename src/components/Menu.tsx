@@ -2,7 +2,10 @@ import { menu } from "../menu";
 
 const Menu = () => {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 gap-4">
+        <div
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 gap-4"
+            id="menu"
+        >
             {menu.map((category) => (
                 <div
                     className="w-full justify-center space-y-4"
