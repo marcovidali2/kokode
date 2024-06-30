@@ -25,7 +25,7 @@ const Hero = () => {
                     </div>
 
                     <a href="#id">
-                        <button className="btn btn-primary">
+                        <button className="btn btn-primary px-12">
                             Scopri il menù
                             <ArrowDownIcon width={16} />
                         </button>
