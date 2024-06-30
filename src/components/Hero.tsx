@@ -24,12 +24,12 @@ const Hero = () => {
                         </p>
                     </div>
 
-                    <div>
+                    <a href="#id">
                         <button className="btn btn-primary">
                             Scopri il menù
                             <ArrowDownIcon width={16} />
                         </button>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
