@@ -24,12 +24,21 @@ const Hero = () => {
                         </p>
                     </div>
 
-                    <a href="#menu">
-                        <button className="btn btn-primary px-12">
-                            Scopri il menù
-                            <ArrowDownIcon width={16} />
-                        </button>
-                    </a>
+                    <div className="flex flex-col gap-12">
+                        <a href="#menu">
+                            <button className="btn btn-primary px-12">
+                                Più su di noi
+                                <ArrowDownIcon width={16} />
+                            </button>
+                        </a>
+
+                        <a href="#menu">
+                            <button className="btn btn-secondary text-sm">
+                                Scopri il menù
+                                <ArrowDownIcon width={16} />
+                            </button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

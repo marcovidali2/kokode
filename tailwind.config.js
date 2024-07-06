@@ -13,7 +13,7 @@ export default {
             {
                 mytheme: {
                     primary: "#fde047",
-                    secondary: "#fb6000",
+                    secondary: "#8A1605",
                     accent: "#00b574",
                     neutral: "#110a00",
                     "base-100": "#FFFFFF",
